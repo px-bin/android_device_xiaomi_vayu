@@ -27,6 +27,7 @@ OCTAVI_BUILD_TYPE := Official
 # QUICK TAP
 TARGET_SUPPORTS_QUICK_TAP := true
 
+# Device Identifier (it must come after all inclusions)
 PRODUCT_NAME := octavi_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
