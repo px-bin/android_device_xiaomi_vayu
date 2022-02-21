@@ -24,6 +24,9 @@ WITH_GAPPS := true
 # Official
 OCTAVI_BUILD_TYPE := Official
 
+# QUICK TAP
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_NAME := octavi_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
