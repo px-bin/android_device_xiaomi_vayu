@@ -68,6 +68,11 @@ LOC_HIDL_VERSION := 4.0
 # Display density
 TARGET_SCREEN_DENSITY := 410 ## smallest width 421dp
 
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/sm8150/audio
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sm8150/media
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/sm8150/display
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/configs/hidl/framework_compatibility_matrix.xml \
