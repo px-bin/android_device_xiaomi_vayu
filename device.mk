@@ -357,6 +357,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml
 
 # Soong namespaces
+PRODUCT_BOARD_PLATFORM := sm8150
+BOARD_USES_QCOM_HARDWARE := true
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
