@@ -10,11 +10,11 @@ ro.charger.enable_suspend=true
 # CNE module
 persist.vendor.cne.feature=1
 
-# Octavi Maintainer
+# Octavi Prop
 ro.octavi.maintainer=raghavt20
-
-# OTA prop
 ro.octavi.display.pid=1546691
+ro.octavi.hw.cam=48MP.8MP.2MP.2MP:20MP
+ro.octavi.hw.cpu=Snapdragon 860 (7nm)
 
 # Netflix custom property
 ro.netflix.bsp_rev=Q855-16947-1
